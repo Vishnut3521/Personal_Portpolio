@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VishuThakur</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Merriweather', serif;
+            margin:0;
+            padding:0;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        
+        
+        
+        @media(min-width:768px){
+            nav .ul .fa{
+                display: none;
+            }
+            nav .fa-bars{
+                display: none;
+            }
+            nav .ul .li .more{
+                background-color: black;
+                width: 150px;
+                position: fixed;
+                right: 0;
+                top:40px;
+                display: none;
+            }
+            nav .ul .li .more .moreli{
+                display: block;
+                height: 20px;
+            }
+            nav .ul .li:hover .more{
+                display: block;
+            }
+
+            nav .ul .li .more .moreli .work{
+                display: none;
+                position: fixed;
+                background-color: rgb(0, 0, 0);
+                right: 150px;
+                margin-top: -31px;
+                height: 120px;
+                width: 150px;
+                
+            }
+            nav .ul .li .more .moreli .work li{
+                display: block;
+                padding: 0;
+                width: 128px;
+                height: 30px;
+                padding-left: 20px;
+                padding-top: 10px;
+                
+            }
+            nav .ul .li .more .moreli .project{
+                display: none;
+                position: fixed;
+                background-color: black;
+                right: 150px;
+                margin-top: -31px;
+            }
+            nav .ul .li .more .moreli .project li{
+                display: block;
+                padding: 0;
+                width: 150px;
+                height: 30px;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+
+            nav .ul .li .more .moreli .project{
+                display: none;
+            }
+            nav .ul .li .more .w:hover .work{
+                display: block;
+            }
+            nav .ul .li .more .p:hover .project{
+                display: block;
+            }
+            
+        }
+        @media(max-width:767px) and (min-width:320px){
+            nav .ul .li .more{
+                background-color: black;
+                width: 180px;
+                position: fixed;
+                right: 140px;
+                top:40px;
+                display: none;
+                top: 249px;
+                border: 1px solid rgb(133, 128, 128);
+                height: 220px;
+            }
+            nav .ul .li .more .moreli{
+                display: block;
+                height: 20px;
+                width: 80px;
+            }
+            nav .ul .li:hover .more{
+                display: block;
+            }
+
+            nav .ul .li .more .moreli .work{
+                display: none;
+                position: fixed;
+                background-color: black;
+                right: 50px;
+                margin-top: 9px;
+                border: 1px solid rgb(133, 128, 128);
+                height: 200px;
+            }
+            nav .ul .li .more .moreli .work li{
+                display: block;
+                padding-left: 10px;
+                width: 100px;
+                height: 20px;
+            }
+            
+
+            nav .ul .li .more .moreli .project{
+                display: none;
+                position: fixed;
+                background-color: black;
+                right: 50px;
+                margin-top: 9px;
+                border: 1px solid rgb(133, 128, 128);
+                height: 200px;
+            }
+            nav .ul .li .more .moreli .project li{
+                display: block;
+                padding-left: 10px;
+                width: 100px;
+                height: 20px;
+            }
+            nav .ul .li .more .w:hover .work{
+                display: block;
+            }
+            nav .ul .li .more .p:hover .project{
+                display: block;
+            }
+        }
+        
+       
+        @media(min-width:1024px){
+            nav{
+            position: fixed;
+            height: 40px;
+            width: 100%;
+            background-color: black;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        nav .logo{
+            margin-left: 100px;
+        }
+        nav .ul{
+            list-style: none;
+            height: 39px;
+            margin-top: 10px;
+            
+            
+        }
+        nav .ul li{
+            display: inline;
+            color: white;
+            font-size: 16px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            cursor: pointer;
+            
+
+        }
+        nav .ul .li{
+            padding-left: 15px;
+        }
+        nav .ul li:hover{
+            background-color: green;
+            
+        }
+        }
+
+        @media(max-width:1023px) and (min-width:768px){
+            nav{
+            position: fixed;
+            height: 40px;
+            width: 100%;
+            background-color: black;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav .logo{
+            margin-left: 60px;
+        }
+        nav .ul{
+            list-style: none;
+            height: 40px;
+            margin-top: 12px;
+            padding: 0;
+
+        }
+        nav .ul li{
+            display: inline;
+            color: white;
+            font-size: 16px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            margin: 0;
+            height: 40px;
+            cursor: pointer;
+
+        }
+        nav .ul .li{
+            padding-left: 15px;
+        }
+        nav .ul li:hover{
+            background-color: green;
+           
+        }
+        }
+        @media(max-width:767px) and (min-width:481px){
+            nav{
+            position: fixed;
+            height: 40px;
+            width: 100%;
+            background-color: black;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav .logo{
+            margin-left: 40px;  
+        }
+        nav .ul{
+            list-style: none;
+            height: 100vh;
+            background-color: black;
+            position: fixed;
+            z-index: 2;
+            right: -300px;
+            top: 0;
+            width: 250px;
+            padding-top: 10px;
+            transition: 700ms;
+        }
+        
+        nav .ul li{
+            display: block;
+            color: white;
+            font-size: 16px;
+            padding-right: 25px;
+            padding-top: 28px;
+            margin: 0;
+            cursor: pointer;
+            margin-left: 20px;
+            border-bottom: 1px solid rgb(145, 139, 139);
+            margin-left: 40px;
+            width: 150px;
+        }
+        nav .ul .fa{
+            border-bottom: none;
+            padding-top: 3px;
+            padding-bottom: 15px;
+           }
+        }
+        @media(max-width:480px) and (min-width:320px){
+            nav{
+            position: fixed;
+            height: 40px;
+            width: 100%;
+            background-color: black;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav .logo{
+            margin-left: 20px;  
+        }
+        nav .ul{
+            list-style: none;
+            height: 100vh;
+            background-color: black;
+            position: fixed;
+            z-index: 2;
+            right: -300px;
+            top: 0;
+            width: 250px;
+            padding-top: 10px;
+            transition: 700ms;
+        }
+        
+        nav .ul li{
+            display: block;
+            color: white;
+            font-size: 16px;
+            padding-right: 25px;
+            padding-top: 28px;
+            margin: 0;
+            cursor: pointer;
+            margin-left: 20px;
+            border-bottom: 1px solid rgb(145, 139, 139);
+            margin-left: 40px;
+            width: 150px;
+        }
+        nav .ul .fa{
+            border-bottom: none;
+            padding-top: 3px;
+            padding-bottom: 15px;
+           }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <h3 style="color: white; font-size: 16px; font-weight: normal;padding-top:4px;cursor: pointer;"><span style="color: red; font-size: 25px;">V</span>ishuThakur</h3>
+        </div>
+        <ul class="ul" id="navbarul">
+            <li class="fa"><i class="fa-solid fa-xmark" style="font-size: 24px;" id="crossIcon"></i></li>
+            <li id="lihome" onclick="home_()">Home</li>            
+            <li id="liabout" onclick="about_()">About</li>            
+            <li id="licontact" onclick="contact_()">Contact</li>            
+            <li class="li"  id="limore"><span onclick="more_()">More</span><i class="fas fa-caret-down" style="margin-left: 15px; font-size: 15px;"></i>
+                    <ul class="more" id="more">
+                        <li class="moreli"><span onclick="follow_()">Follow</span></li>
+                        <li class="moreli w"><span onclick="work_()">Work</span>
+                            <ul class="work" id="work">
+                                <li onclick="work_1()">work1</li>
+                                <li onclick="work_2()">work2</li>
+                                <li onclick="work_3()">work3</li>
+                            </ul>
+                        </li>
+                        <li class="moreli p" ><span onclick="project_()">Projects</span>
+                            <ul class="project">
+                                <li onclick="project_1()">project1</li>
+                                <li onclick="project_2()">project2</li>
+                                <li onclick="project_3()">project3</li>
+                            </ul>
+                        </li>
+                        <li class="moreli"><span onclick="skill_()">Skills</span></li>
+                    </ul>
+                
+            </li>            
+
+        </ul>
+        <i class="fa-solid fa-bars" style="color: white; font-size: 22px; padding-right: 20px; margin-top: 10px; cursor: pointer;" id="barIcon"></i>
+
+    </nav>
+
+</body>
+</html>
+<script>
+    const barIcon = document.getElementById('barIcon');
+    const crossIcon = document.getElementById('crossIcon');
+    const ul=document.getElementById('navbarul');
+
+    barIcon.addEventListener('click', () => {
+        ul.style.right="0";
+    });
+
+    crossIcon.addEventListener('click', () => {
+        ul.style.right="-300px";
+    });
+    
+    
+</script>

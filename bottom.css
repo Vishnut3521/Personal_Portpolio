@@ -1,0 +1,247 @@
+.footer-vsd{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+.footer-vsd .dvs-section{
+    height: 100px;
+    width: 70%;
+    background-color: blue;
+    color: white;
+    margin-left: 200px;
+    position: relative;
+    top: -50px;
+    box-shadow: 2px 2px 15px rgba(92, 91, 91, 0.329);
+    font-size: 20px;
+}
+.footer-vsd .dsf-section{
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.footer-vsd .dsf-section .link-section,.follow-section,.massage-section{
+    height: 240px;
+    width: 300px;
+    text-align: center;
+}
+.footer-vsd .dsf-section .link-section{
+    text-align: left;
+    margin-top: -20px;
+}
+
+.footer-vsd .dsf-section .link-section ul li{
+    margin-bottom: 10px;
+}
+.footer-vsd .dsf-section .link-section ul li    a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.footer-vsd .dsf-section .follow-section .images-vc{
+    margin-top: -40px;
+}
+
+
+
+.footer-vsd .dsf-section .follow-section .images-vc .cv1{
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-facebook{
+    font-size: 50px;
+    top: 130px;
+    left: 110px;
+    color: rgb(88, 88, 226);
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-youtube{
+    font-size: 80px;
+    top: 100px;
+    color: red;
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-whatsapp{
+    font-size: 40px;
+    top: 80px;
+    color: green;
+    left: 80px;
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-snapchat{
+    font-size: 60px;
+    left: 60px;
+    top: 23px;
+    color: yellow;
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-twitter{
+    font-size: 30px;
+    left: -40px;
+    top: 40px;
+    color: rgb(5, 5, 44);
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-google-plus{
+    font-size: 30px;
+    top: 20px;
+    right: 30px;
+    color: red;
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-share-nodes{
+    font-size: 50px;
+    top: -60px;
+    left: 50px;
+    color: rgb(61, 61, 216);
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-facebook-messenger{
+    font-size: 60px;
+    top: 40px;
+    right: 20PX;
+    color: red;
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-skype{
+    font-size: 60PX;
+    top: -20px;
+    right: 110px;
+    color: rgb(28, 28, 92);
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-square-phone{
+    font-size: 50PX;
+    top: 90px;
+    
+    color: rgb(89, 221, 89);
+}
+.footer-vsd .dsf-section .follow-section .images-vc .fa-code-branch{
+    font-size: 30PX;
+    top: 90px;
+    right: 150px;
+    color: rgb(105, 105, 18);
+}
+.footer-vsd .dvs-section h1 .vv1{
+    background-color: rgb(255, 255, 255); 
+    color: #0026ff;
+    cursor: pointer;
+    border-radius: 50%; 
+    height: 30px;
+    width: 30px;
+}
+@media(max-width:1025px) and (min-width:769px){
+    .footer-vsd .dsf-section{
+        margin-left: 50px;
+        
+        margin-right: 0px;
+    }
+    .footer-vsd .dvs-section{
+        left: -30px;
+    }
+    .footer-vsd .dsf-section{
+        margin-right: 0px;
+    }
+}
+@media(max-width:768px) and (min-width:480px){
+    .footer-vsd{
+        height: max-content;
+        text-align: center;
+    }
+    .footer-vsd .dvs-section{
+        left: -90px;
+    }
+    .footer-vsd .dsf-section{
+        display: block;
+    }
+    .footer-vsd .dsf-section .link-section{
+        text-align: center;
+        
+    }
+    .footer-vsd .dsf-section .images-vc{
+        margin-bottom: 100px;
+    }
+    
+}
+@media(max-width:479px) and (min-width:360px){
+    .footer-vsd{
+        height: max-content;
+        text-align: center;
+    }
+    .footer-vsd .dsf-section .link-section{
+        text-align: center;
+        
+    }
+    .footer-vsd .dsf-section{
+        display: block;
+        margin-left: 70px;
+        text-align: center;
+        
+    }
+    .footer-vsd .dvs-section{
+        left: -130px;
+        height: 70px;
+    }
+    .footer-vsd .dvs-section h1{
+        font-size: 16px;
+    }
+    .footer-vsd .dvs-section h1 .vv1{
+         
+        height: 10px;
+        width: 10px;
+    }
+
+}
+@media(max-width:479px) and (min-width:361px){
+    .footer-vsd{
+        height: max-content;
+        text-align: center;
+    }
+    .footer-vsd .dsf-section .link-section{
+        text-align: center;
+        
+    }
+    .footer-vsd .dsf-section{
+        display: block;
+        margin-left: 40px;
+        text-align: center;
+        
+    }
+    .footer-vsd .dvs-section{
+        left: -130px;
+        height: 70px;
+    }
+    .footer-vsd .dvs-section h1{
+        font-size: 16px;
+    }
+    .footer-vsd .dvs-section h1 .vv1{
+         
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media(max-width:360px) and (min-width:320px){
+    .footer-vsd{
+        height: max-content;
+        text-align: center;
+    }
+    .footer-vsd .dsf-section .link-section{
+        text-align: center;
+        
+    }
+    .footer-vsd .dsf-section{
+        display: block;
+        margin-left: 20px;
+        text-align: center;
+        
+    }
+    .footer-vsd .dvs-section{
+        left: -160px;
+        height: 70px;
+    }
+    .footer-vsd .dvs-section h1{
+        font-size: 16px;
+    }
+    .footer-vsd .dvs-section h1 .vv1{
+         
+        height: 10px;
+        width: 10px;
+    }
+}
